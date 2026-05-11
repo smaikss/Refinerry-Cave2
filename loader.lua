@@ -8,7 +8,7 @@ local DISCORD_LINK = "https://discord.gg/JdTdKv5mdb"
 -- Очищення старого GUI, якщо він залишився після попереднього запуску
 pcall(function()
     if CoreGui:FindFirstChild("Refinerry-Cave2Key") then
-        CoreGui.OaklandsKey:Destroy()
+        CoreGui.RefinerryCave2Key:Destroy()
     end
 end)
 
@@ -28,7 +28,7 @@ local title = Instance.new("TextLabel")
 title.Parent = frame
 title.Size = UDim2.new(1, 0, 0, 40)
 title.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
-title.Text = "🔑 Oaklands Login"
+title.Text = "🔑 RefinerryCave2 Login"
 title.TextColor3 = Color3.new(1, 1, 1)
 title.TextScaled = true
 title.BorderSizePixel = 0
